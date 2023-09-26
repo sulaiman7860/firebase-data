@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Js Assignment 7</title>
+</head>
+<body>
+    <header class="bg-danger text-white text-center pb-3">
+        <h3 class="pt-3">Chapter # 31 - 38 | Date & Time, Function: Passing them data and get data from them</h3 class="pt-3">
+    </header>
+    <main>
+        <div class="container pt-4">
+            <div class="row text-center">
+                <div class="col-12 col-lg-6">
+                    <h4>
+                        Input
+                    </h4>
+                    <div class="input-group border border-dark rounded py-3 px-2">
+                        <input id="input" type="datetime-local" class="form-control" placeholder="Type your text here"><span
+                            class="input-group-text"><button id="clear1" class="btn " onclick="clearInput()">Clear</button></span>
+
+                    </div>
+
+                </div>
+                <div id="orignalString" class="col-12 col-lg-6">
+                    <h4>Current Date and Time</h4>
+                    <div class="container bg-dark rounded">
+                        <h6 id="string" class="text-white py-4"></h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center py-5">
+                <div  class="col-12 col-lg-6">
+                    <h4>Buttons</h4>
+                    <div id="buttons" class="container rounded text-center border border-dark py-2">
+
+                        <div class="container pt-4">
+                            <button id="nameToday" class="btn btn-danger  m-1" onclick="todayName()">Get Name of Today</button>
+                        <button id="dayCalcu" class="btn btn-danger  m-1" onclick="calculateDays()"> Calculate days passed since I born</button>
+                        <button id="Birthday" class="btn btn-danger  m-1" onclick="birthday()">When is your next birthday?</button>
+                        <button id="greet" class="btn btn-danger  m-1" onclick="greetUser()">Greet User</button>
+                        <button id="time" class="btn btn-danger  m-1" onclick="tellTime()">Tell Time</button>
+                        <button id="Tax" class="btn btn-danger  m-1" onclick="calculateTax()">Calculate Tax</button>
+                        <button id="Total" class="btn btn-danger  m-1" onclick="calculateTotal()">Calculate Total = Price + Tax</button>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div  class="col-12 col-lg-6">
+                    <h4>Output</h4>
+                    <div id="output" class="container border border-dark rounded text-danger fw-bold fs-3 pt-5"></div>
+                    <button id="clear2" class="btn btn-dark mt-3" onclick="clear()">
+                        Clear Output
+                    </button>
+                </div>
+            </div>
+    </main>
+    <footer class="bg-danger text-center">
+        <p>
+            Designed by <strong class="text-white">&ensp;   Xr.</strong>
+        </p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

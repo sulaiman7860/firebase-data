@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+}
+main{
+    min-height: 100%;
+    /* margin-bottom: -30px; */
+}
+header{
+    height: 80px;
+}
+input{
+    height: 65px;
+}
+#orignalString{
+    height: 90px;
+}
+#output{
+    min-height: 224px;
+}
+
+#buttons{
+    min-height: 225px;
+}
+#string{
+    min-height: 100px;
+}

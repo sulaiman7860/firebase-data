@@ -1,0 +1,12 @@
+body{
+    box-sizing: border-box;
+}
+main{
+    max-height: 100%;
+}
+#result{
+    margin-left: 64px;
+}
+footer{
+    height: 8vh;
+}

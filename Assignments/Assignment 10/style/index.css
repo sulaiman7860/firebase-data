@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 97vh;
+}
+.navbar {
+    background-color: #023047;
+}
+main {
+    flex: 1 0 auto;
+}
+#particles-js {
+    background-image: url(../assets/images/19067.jpg);
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+main .container-fluid {
+    position: absolute;
+}
+footer {
+    background-color: #023047;
+}
+
+@media only screen and (max-width: 500px) {
+    #particles-js {
+      height: 48rem;
+    }
+  }

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+}
+main{
+    max-height: 100%;
+    /* margin-bottom: -30px; */
+}
+header{
+    height: 80px;
+}
+input{
+    height: 65px;
+}
+#orignalString{
+    height: 90px;
+}
+#output{
+    min-height: 224px;
+}
+

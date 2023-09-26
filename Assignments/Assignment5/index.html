@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <span class="navbar-brand text-light" href="#"><b>Assignments</b></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <span class="text-light">Chapter 21 - 25</span>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="heading-section">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-12 text-center">
+                        <h3>Chapter # 15 - 20 | Arrays: Its Method &amp; for Loops</h3>
+                    </div>
+                    <hr class="my-4">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 text-center py-4">
+                            <h3>Input</h3>
+                            <div class="card pt-3 px-3 border border-dark rounded">
+                                <div class="input-group mb-3 py-2">
+                                    <input type="text" class="form-control" placeholder="Type your text here"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2" id="inPut">
+                                    <div class="input-group-append">
+                                        <button class="input-group-text" onclick="clearA()">Clear</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 text-center py-4">
+                            <h3>Orignal String</h3>
+                            <div class="card pt-2 px-3 rounded" style="background-color: #023047;;">
+                                <p class="text-light" id="inputGroup">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="button-section" class="my-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-lg-6 text-center">
+                        <h3>Buttons</h3>
+                        <div class="col-12 py-3 text-center border border-dark rounded">
+                            <button class="btn btn-danger my-2" onclick="lowerCase()">Convert to Lowercase</button>
+                            <button class="btn btn-danger my-2" onclick="upperCase()">Convert to Uppercase</button>
+                            <button class="btn btn-danger my-2" onclick="capitalize()">Convert to Capatalize</button>
+                            <button class="btn btn-danger my-2" onclick="betterForm()">Better Formatting</button>
+                            <button class="btn btn-danger my-2" onclick="printCities()">Print All Cites</button>
+                            <button class="btn btn-danger my-2" onclick="addCity()">Add Your City In The List</button>
+                            <button class="btn btn-danger my-2" onclick="checkCity()">Check Your City In The
+                                List</button>
+                            <button class="btn btn-danger my-2" onclick="findWord()">Find This Word</button>
+                            <button class="btn btn-danger my-2" onclick="replaceWord()">Replace This Word</button>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg-6 text-center">
+                        <h3>Output / Result</h3>
+                        <div class="border border-dark rounded col-12 text-center pt-4" id="outPut"></div>
+                        <div class="col-12 text-center">
+                            <button class="btn border border-dark my-4 py-2 text-center" onclick="clearOutput()">Clear
+                                Output</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-0 text-center text-light py-1">&copy; 2023 Assignment By
+                        <strong>Xr</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

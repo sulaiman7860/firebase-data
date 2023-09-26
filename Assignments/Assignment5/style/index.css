@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.navbar {
+    background-color: #023047;
+}
+main {
+    flex: 1 0 auto;
+}
+#outPut {
+    min-height: 46vh;
+}
+footer {
+    background-color: #023047;
+}
