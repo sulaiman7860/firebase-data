@@ -1,5 +1,5 @@
 import Header from "./(components)/Header/Header";
-import Sidebar from "./(components)/Sidebar/sidebar"
+import Sidebar from "./(components)/Sidebar/Sidebar"
 import Image from "next/image";
 import student from "../public/assets/images/123456.jpg";
 import teacher from "../public/assets/images/teacher1.jpg"
