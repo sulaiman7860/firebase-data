@@ -1,0 +1,18 @@
+import React from 'react'
+import Sidebar from '../(components)/Sidebar/Sidebar'
+import Header from '../(components)/Header/Header'
+
+export default function Course() {
+  return (
+    <div className='container-fluid mt-3'>
+      <div className="row">
+        <div className="col-3">
+          <Sidebar/>
+        </div>
+        <div className="col-9">
+          <Header/>
+        </div>
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,14 @@
+.projectLinks:hover {
+    background-color: #00b4d8;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.projectLinks .link1{
+   color: #fff;
+}
+
+.sidebar {
+    background-image: url(../../../public/assets/images/3632097.jpg);
+    background-size: cover;
+    height: 95vh;
+}
