@@ -60,7 +60,7 @@ export default function Student() {
   }, [])
 
   const onDeletHandler = async (id) => {
-    const docRef = doc(db, "users", id)
+    const docRef = doc(db, "collection", id)
 
     try {
       setId(id)
@@ -80,7 +80,7 @@ export default function Student() {
 
   const onUpdateHandler = async (id) => {
     try {
-      const docRef = doc(db, "abc", id)
+      const docRef = doc(db, "collection", id)
       setId(id)
       setLoading(true)
       await updateDoc(docRef, {
@@ -122,10 +122,10 @@ export default function Student() {
                     <th>Update</th>
                     <th>Delete</th>
                   </tr>
-                {students.map((student) => {
+                {students.map((student,index) => {
                     return (
 
-                      <tr>
+                      <tr key={index}>
                         <td>{student.id}</td>
                         <td>{student.name}</td>
                         <td>{student.phone}</td>
