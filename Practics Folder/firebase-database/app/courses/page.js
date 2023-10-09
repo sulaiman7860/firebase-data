@@ -118,7 +118,7 @@ export default function Courses() {
                   <tr >
                     <th>Course Code</th>
                     <th>Course</th>
-                    <th>Description</th>
+                    <th className="ps-5">Description</th>
                     <th>Update</th>
                     <th>Delete</th>
                   </tr>
