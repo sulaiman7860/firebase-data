@@ -1,14 +1,16 @@
 
 import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyChMjXT1XWCjCcqm-VGvQ8hQK_ZY38QpV4",
-  authDomain: "database-1ec86.firebaseapp.com",
-  projectId: "database-1ec86",
-  storageBucket: "database-1ec86.appspot.com",
-  messagingSenderId: "1028366116394",
-  appId: "1:1028366116394:web:f354f546a45b3cdbd94553"
+  apiKey: "AIzaSyB8rNQQOD8uMad1Vpqkq1ggi5P2o0OdXiY",
+  authDomain: "students-data-b401e.firebaseapp.com",
+  projectId: "students-data-b401e",
+  storageBucket: "students-data-b401e.appspot.com",
+  messagingSenderId: "836505401207",
+  appId: "1:836505401207:web:0089357f54019e6b3b9372"
 };
 
-
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
