@@ -116,9 +116,9 @@ export default function Courses() {
               <div className="card mt-5 p-3">
                 <table class="table table-hover">
                   <tr >
-                    <th>Student Name</th>
-                    <th>Student Id</th>
-                    <th>Contact Number</th>
+                    <th>Course Code</th>
+                    <th>Course</th>
+                    <th>Description</th>
                     <th>Update</th>
                     <th>Delete</th>
                   </tr>

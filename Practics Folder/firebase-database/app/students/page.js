@@ -7,14 +7,12 @@ import Sidebar from "../(components)/Sidebar/Sidebar"
 
 export default function Student() {
   const [name, setName] = useState("")
-  const [studentId, setStudentId] = useState("")
   const [phone, setPhone] = useState("")
 
 
   const HandleSubmit = async () => {
     let student = {
       name,
-      studentId,
       phone
     }
 
@@ -107,8 +105,7 @@ export default function Student() {
           <div className="row mt-4">
             <div className="col-12">
               <input type="text" onChange={(e) => setName(e.target.value)} placeholder="Enter Your Name" className="form-control" />
-              <input type="text" onChange={(e) => setStudentId(e.target.value)} placeholder="Enter Your Student Id" className="form-control my-3" />
-              <input type="number" onChange={(e) => setPhone(e.target.value)} placeholder="Contact Number" className="form-control" />
+              <input type="number" onChange={(e) => setPhone(e.target.value)} placeholder="Contact Number" className="form-control my-3" />
               <button onClick={HandleSubmit} className="btn btn-success mt-3">Submit</button>
 
             </div>
@@ -116,8 +113,8 @@ export default function Student() {
               <div className="card mt-5 p-3">
                 <table class="table table-hover">
                   <tr >
-                    <th>Student Name</th>
                     <th>Student Id</th>
+                    <th>Student Name</th>
                     <th>Contact Number</th>
                     <th>Update</th>
                     <th>Delete</th>
